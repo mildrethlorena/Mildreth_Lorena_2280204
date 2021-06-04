@@ -4,6 +4,15 @@ h1 {
 .big-font {
     font-size: 30px;
 }
+.fuente-normal {
+    font-weight: 900;
+}
 .fuente-negrita {
     font-weight: bold;
+}
+.estilo-normal {
+    font-style: normal;
+}
+.estilo-italico {
+    font-style: italic;
 }
