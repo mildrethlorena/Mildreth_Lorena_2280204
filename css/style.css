@@ -23,6 +23,20 @@ h1 {
     font-family: 'Oregano',sans-serif;
     font-size: 2.5em;
 }
+p.font-30 {
+    font-size: 30px;
+    color:thistle;
+    font-weight: bolder;
+}
+span.font-crazy {
+    font-weight: 900;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color: brown;
+}
+.color-darkcyan {
+    color: darkcyan;
+}
 /* oregano-regular - latin */
 @font-face {
     font-family: 'Oregano';
