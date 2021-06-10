@@ -34,8 +34,29 @@ span.font-crazy {
     font-size: 20px;
     color: brown;
 }
+p {
+    font-size: 2em;
+}
 .color-darkcyan {
     color: darkcyan;
+}
+.color-RGB {
+    color: rgb(0, 0, 250);
+}
+.color-limegreen {
+    color: #32cd32;
+}
+.color-simpson {
+    color: rgb(254,213,35);
+}
+.espaciado-letras {
+    letter-spacing: 0.1em;
+}
+.espaciado-palabras {
+    word-spacing: 0.6em;
+}
+.espaciado-lineas {
+    line-height: 4em;
 }
 /* oregano-regular - latin */
 @font-face {
