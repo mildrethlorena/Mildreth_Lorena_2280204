@@ -10,6 +10,20 @@
 .alineacion-justificada {
     text-align: justify;
 }
+.texto-inventado {
+    text-indent: 5em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+.texto-enfatizado {
+    font-size: 5em;
+}
+blockquote {
+    font-style: italic;
+    color: hotpink;
+    font-size: 2em;
+    text-align: right;
+}
 p {
     font-size: 1.5em;
 }

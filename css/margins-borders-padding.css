@@ -1,0 +1,65 @@
+body {
+    margin: 0 4em;
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+.texto-margenes {
+    /* Afecta los 4 lados */
+    /* margin 3em; */
+    /* Afecta los 4 lados individualmente pero lo declaro en una sola linea */
+    /* margin 4em 8em 2em 3em; */
+    /* Afecta los 4 lados declarados en 2 solos valores */
+    /* margin 1em 8em */
+    /* Declarando los 4 lados de forma explicita individualmete */
+    /* margin-top: 2em;
+    margin-right: 3em;
+    margin-bottom: 0;
+    margin-left: 4em; */ 
+    text-align: justify;
+    font-size: 1.5em;
+}
+.parrafo-borde1 {
+    font-size: 1.5em;
+    text-align: justify;
+    border: 3px solid steelblue;
+}
+.parrafo-borde2 {
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    border-top: 3px solid greenyellow;
+}
+.parrafo-borde3 {
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    border-left: 3px solid mediumorchid;
+    border-right: 3px solid mediumorchid;
+}
+.parrafo-espaciado1 {
+    font-size: 1.5em;
+    text-align: justify;
+    border: 3px solid steelblue;
+    padding: 1.5em;
+    background: mediumturquoise;
+    color: black;
+    line-height: 1,5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.parrafo-espaciado2 {
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    border-top: 3px solid greenyellow;
+    padding-top: 2em;
+}
+.parrafo-espaciado3 {
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    border-left: 3px solid mediumorchid;
+    border-right: 3px solid mediumorchid;
+    padding: 0 2.5em;
+}
