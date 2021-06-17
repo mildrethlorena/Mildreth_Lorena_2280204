@@ -1,0 +1,55 @@
+.big-font {
+    font-size: 30px;
+}
+.fuente-normal {
+    font-weight: 900;
+}
+.fuente-negrita {
+    font-weight: bold;
+}
+.estilo-normal {
+    font-style: normal;
+}
+.estilo-italico {
+    font-style: italic;
+}
+.fuente-playball {
+    font-family: 'Playball', cursive;
+}
+.fuente-oregano {
+    font-family: 'Oregano',sans-serif;
+    font-size: 2.5em;
+}
+p.font-30 {
+    font-size: 30px;
+    color:thistle;
+    font-weight: bolder;
+}
+span.font-crazy {
+    font-weight: 900;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color: brown;
+}
+.espaciado-letras {
+    letter-spacing: 0.1em;
+}
+.espaciado-palabras {
+    word-spacing: 0.6em;
+}
+.espaciado-lineas {
+    line-height: 4em;
+}
+/* oregano-regular - latin */
+@font-face {
+    font-family: 'Oregano';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/oregano-v8-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/oregano-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/oregano-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/oregano-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/oregano-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/oregano-v8-latin-regular.svg#Oregano') format('svg'); /* Legacy iOS */
+  }
