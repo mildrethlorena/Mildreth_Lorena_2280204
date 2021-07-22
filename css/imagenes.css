@@ -10,15 +10,15 @@ img {
 } 
 .img-catalogo {
     display: inline;
+    margin-bottom: -1em;
 }
 p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
-    line-height: 0;
 }
 div {
-    display: inline;
+    display: inline-block;
     margin: 25px;
-    height: 210px;
-    width: 370px;
+    height: 380px;
+    width: 360px;
 }
