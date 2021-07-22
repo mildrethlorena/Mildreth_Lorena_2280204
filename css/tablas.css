@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    font-size: 1.5em;
+    margin: 0 auto;
+    border: 1px solid rgb(255, 255, 255);
+}
+td, th {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0.8em 1.5em;
+    text-align: center;
+}
+td {
+    background-color: rgb(99, 217, 247);
+    color: rgb(48,48,48),
+}
+.titulo-tacos {
+    background-color: rgb(10, 73, 133);
+    border-radius: 11px;
+}
+.titulo-hamburguesa {
+    background-color: rgb(78, 100, 170);
+    border-radius: 11px;
+}
+.titulo-pizza {
+    background-color: rgb(91, 166, 216);
+    border-radius: 11px;
+}
+.titulo-hotdog {
+    background-color: rgb(49, 81, 88);
+    border-radius: 11px;
+}
+.titulo-lulu {
+    background-color: rgb(10, 73, 133);
+    border-radius: 11px;
+}
+.titulo-diana {
+    background-color: rgb(78, 100, 170);
+    border-radius: 11px;
+}
+.titulo-carlos {
+    background-color: rgb(91, 166, 216);
+    border-radius: 11px;
+}
+.titulo-miguel {
+    background-color: rgb(49, 81, 88);
+    border-radius: 11px;
+}
