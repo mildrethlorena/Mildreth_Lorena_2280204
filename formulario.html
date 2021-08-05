@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="fuentes.html">Fuentes</a></li>
+        <li><a href="colores.html">Colores</a></li>
+        <li><a href="listas.html">Listas</a></li>
+        <li><a href="alineacion.html">Alineación</a></li>
+        <li><a href="margins-borders-padding.html">Margenes,bordes y espaciados</a></li>
+        <li><a href="imagenes.html">Imágenes</a></li>
+        <li><a href="tablas.html">Tablas</a></li>
+        <li><a href="formulario.html">Formulario</a></li>
+    </ul>
+    <h1>Registro de usuario nuevo</h1>
+    <form action="" method="get">
+        <fieldset>
+            <div class="formulario">
+            <label>Nombres</label><br>
+            <input type="text" name="Nombres" id=""><br>
+            <label>Apellidos</label><br>
+            <input type="text" name="Apellidos" id=""><br>
+            <label>Direccion</label><br>
+            <textarea name="Direccion" cols="30" rows="5"></textarea><br>
+            <label>Departamento</label><br>
+            <label><input type="checkbox" value="Huila"> Huila</label><br>
+            <label><input type="checkbox" value="Cundinamarca"> Cundinamarca</label><br>
+            <label><input type="checkbox" value="Bolivar"> Bolivar</label><br>
+            <label><input type="checkbox" value="Atlantico"> Atlantico</label><br>
+            <label><input type="checkbox" value="Caldas"> Caldas</label><br><br>
+            <label>Cuidad</label><br>
+            <label><input type="radio" name="Capital" value="Neiva"> Neiva</label><br>
+            <label><input type="radio" name="Capital" value="Bogotá"> Bogotá</label><br>
+            <label><input type="radio" name="Capital" value="Cartagena"> Cartagena</label><br>
+            <label><input type="radio" name="Capital" value="Barranquilla"> Barranquilla</label><br>
+            <label><input type="radio" name="Capital" value="Manizales"> Manizales</label><br><br>
+            <label>Punto Cardinal</label>
+            <select name="Punto_Cardinal"><br>
+                <option value="Zona_Norte"><label>Zona Norte</label></option><br>
+                <option value="Zona_Sur"><label>Zona Sur</label></option><br>
+                <option value="Zona_Oriente"><label>Zona Este</label></option><br>
+                <option value="Zona_Occidente"><label>Zona Oeste</label></option><br>
+            </select><br><br>
+            <input type="submit" value="Enviar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
