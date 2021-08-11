@@ -1,0 +1,52 @@
+.main-box-1 {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.main-box-2 {
+        width: 605px;
+        display: block;
+        margin: 0 auto;
+}
+.main-box-3 {
+    width: 910px;
+    display: block;
+    margin: 0 auto;
+}
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6 {
+    width: 260px;
+    height: 260px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 10px;
+}
+.box-1 {
+    background-color: rgb(64, 2, 73);
+    box-shadow: 20px 20px 5px rgb(29, 10, 32);
+}
+.box-2 {
+    background-color: rgb(2, 110, 2);
+    box-shadow: 20px 20px 5px rgb(1, 63, 1);
+}
+.box-3 {
+    background-color: rgb(138, 129, 8);
+    box-shadow: 20px 20px 5px rgb(90, 85, 8);
+}
+.box-4 {
+    background-color: rgb(7, 48, 102);
+    box-shadow: 20px 20px 5px rgb(4, 24, 51);
+}
+.box-5 {
+    background-color: rgb(145, 7, 19);
+    box-shadow: 20px 20px 5px rgb(77, 3, 9);
+}
+.box-6 {
+    background-color: rgb(134, 47, 7);
+    box-shadow: 20px 20px 5px rgb(75, 24, 0);
+}
+p {
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 110px;
+}
