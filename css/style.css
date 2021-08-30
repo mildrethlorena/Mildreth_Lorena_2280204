@@ -1,5 +1,13 @@
 h1 {
     font-family: Verdana, Tahoma, sans-serif;
+    color: red;
+}
+h2 {
+    color: rgb(0, 2, 109);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.espacio {
+    margin: 1.5em;
 }
 span.titulo-lista {
     font-weight: 900;
