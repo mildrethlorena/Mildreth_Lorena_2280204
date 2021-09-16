@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-nav {
+.n1 {
     position: fixed;
     height: 100%;  
     top: 0;
@@ -10,27 +10,27 @@ nav {
     width: 350px; 
     overflow: auto; 
 }
-ul {
+.n2 {
     list-style: none;
     margin-top: 40px;
     height: 100%;
 }
-li {
+.n3 {
     padding: 20px;
-    border-bottom: 1px solid rgb(255, 255, 255,.11);
+    border-bottom: 1px solid rgba(86, 102, 243, 0.384);
 }
-li:hover {
+.n3:hover {
     background-color: rgb(74, 124, 218);
     cursor: pointer;
 }
-a:hover {
+.n4:hover {
     background-color: rgb(74, 124, 218);
 }
-a {
+.n4 {
     display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 20px;
     font-size: 1.5em;
 }
