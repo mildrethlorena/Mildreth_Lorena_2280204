@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-image: url("../img/sunflowers-6007847_1920.jpg");
+    background-repeat: no-repeat;
+    /*background-position: right bottom;*/
+    width: 100%;
+    height: 100vh;
+}
+/*body {
+    background-image: url("../img/sunflowers-6007847_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*/
