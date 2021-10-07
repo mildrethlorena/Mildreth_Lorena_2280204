@@ -1,0 +1,69 @@
+/*.main {
+    background-image: url(../img/sunflowers-6007847_1920.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 5;
+} */
+body {
+    background-image: url(../img/sunflowers-6007847_1920.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 350px;
+    background-color: rgba(64,64,64, .1);
+    border-radius: 10%;
+    z-index: 10;
+}
+h2 {
+    font-size: 1.8em;
+    color: rgb(64, 64, 64);
+    text-align: center;
+}
+.imput-pass {
+    border: none;
+    border-bottom: 1px solid rgb(64,64,64);
+}
+.imput-name {
+    border: none;
+    border-bottom: 1px solid rgb(64,64,64);
+}
+.password {
+    border: none;
+}
+input {
+    border: none;
+    background-color: rgb(64,64,64, .4);
+}
+.remember-pass {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.submit {
+    height: 1.5em;
+    width: 7em;
+    margin-top: 1em;
+    background-color: rgb(64,64,64);
+    border-radius: 10%;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

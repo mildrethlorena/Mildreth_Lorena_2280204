@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="icons/all.css">
+    <style>
+        input::placeholder {
+            background-color: transparent;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="main">
+    <div class="main-content">
+        <form class="login-content" action="index.html">
+            <i class="fas fa-user-circle fa-8x" style="padding-bottom: 10px; color: rgba(64, 64, 64, .4); display: flex; justify-content:center;"></i>
+            <h2>Iniciar Sesión</h2>
+            <div class="imput-name">
+                <i class="fas fa-user"></i><input style="background-color: transparent; outline: none; "type="text" placeholder="Usuario">
+            </div><br>
+            <div class="imput-pass">
+                <i class="fas fa-lock"></i><input style="background-color: transparent; outline: none;" class="password" type="password" placeholder="Contraseña">
+            </div><br>
+            <a class="remember-pass" href="#">¿Olvide mi contraseña?</a>
+            <button class="submit" type="submit">Iniciar Sesión</button>
+        </form>
+    </div>
 </body>
 </html>
