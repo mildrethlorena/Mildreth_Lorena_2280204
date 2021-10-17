@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("../img/fondo-pintura-acuarela-rosa-vibrante_53876-58930.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+h1 {
+    color: rgba(0, 47, 255, 0.685);
+    text-align: center;
+    font-size: 33px;
+}
+p {
+    text-align: center;
+    font-size: 21px;
+    margin: 7px;
+}
