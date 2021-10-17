@@ -1,4 +1,46 @@
-*{
-    margin: 0;
-    padding: 0;
+h1 {
+    text-align: center;
 }
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 9px;
+    width: 90%;
+    max-width: 1000px;
+    border: 3px solid rgba(0, 32, 29, 0.822);
+    margin: 0 auto;
+    font-size: 1em;
+  
+    /* alineacion horizontal */
+    /* justify-items: start; */
+    /* justify-items: end; */
+    justify-items: stretch;
+/*     justify-items: stretch; */
+
+    /* alineacion vertical */
+  /*   align-items: start; */
+     align-items: center;
+} 
+/*contenedores hijos*/
+.contenedor > div {
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.664);
+    justify-content: center;
+    align-items: center;
+}
+.contenedor .nombre-dia {
+    background: rgba(233, 10, 10, 0.856);
+}
+.primer_dia {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}   
+.nombre-mes {
+    grid-column-start: 1;
+    grid-column-end: 8;
+    font-size: 1.8em;
+    font-style: italic;
+} 
