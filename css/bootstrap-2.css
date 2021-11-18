@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+.yy {
+    height: calc(100%);
+    top: 60px;
+    position: fixed;
+    transition: all .4s ease-in-out;
+    background-color: rgba(17, 184, 226, 0.568);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+a {
+    color: rgb(0, 0, 0);
+    padding: 13px;
+    text-decoration: none;
+    display: block;
+}
+ul {
+    list-style: none;
+    display: block;
+    font-size: 1.1em;
+    text-align: left;
+}
+body {
+    
+}

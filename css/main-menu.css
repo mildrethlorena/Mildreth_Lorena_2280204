@@ -1,0 +1,120 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-image: url(../img/fondo-index.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed fixed;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+    height: calc(100% - 60px);
+    top: 60px;
+    left: -100%;
+    position: fixed;
+    overflow-y: auto;
+    transition: all .4s ease-in-out;
+    background-color: rgba(17, 184, 226, 0.568);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul{
+    list-style: none;
+    display: block;
+    font-size: 1.1em;
+    text-align: left;
+}
+li{
+    padding: 0 10px 0 10px;
+}
+a{
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-decoration: none;
+}
+.fa-house-user .fa-font .fa-palette .fa-list .fa-align-center .fa-images .fa-table .fa-wpforms .fa-box .fa-arrows-alt .fa-chevron-down .fa-icons{
+    margin-right: 10px;
+}
+.menu-box {
+    position: fixed;
+    top: 0;
+    width: 100px;
+    padding-left: 20px;
+    height: 60px;
+}
+#side-header {
+    position: fixed;
+    top :0;
+    width: 220px;
+    height: 100%;
+}
+
+.nav.mostrarNav {
+    left: 0;
+}
+.hamburger-menu {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 25px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+.conteint-page {
+    display: grid;
+    width: 100%;
+    grid-template: "nav-page","content-page" auto /
+                   300px        auto;
+                   justify-content: start;
+}
+li:hover {
+    background-color: rgba(255, 255, 255, 0.794);
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.conteint-main {
+    margin-top: 13em;
+    margin-left: 29em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav.mostrarNav {
+    left: 0;
+}
+
+@media only screen and (max-width:600px) {
+    .bt.menu {
+        width: 120px;
+        overflow-x: hidden;
+    }
+    h1 {
+        margin-top: 60px;
+    }
+    .menu-box-invisible {
+        margin-top: 60px;
+    }
+    nav {
+        width: 100%;
+        position: fixed;
+        right: 100%;
+        font-size: 1.4em;
+        overflow-x: hidden;
+    }
+    ul {
+        width: 98%;
+        overflow-x: hidden;
+    }
+}
+
+
+

@@ -20,7 +20,7 @@ h1 {
     border: 1px solid rgb(0, 0, 0);
     color: rgb(0, 0, 0);
     padding: 20px;
-    box-shadow: 2px 2px 10px rgba(31, 2, 199);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0);
     justify-content: center;
     align-items: center;  
     font-style: italic;
