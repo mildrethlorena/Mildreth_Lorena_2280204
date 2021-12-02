@@ -1,26 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 h1 {
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    color: rgb(255, 0, 0);
 }
-.yy {
-    height: calc(100%);
-    top: 60px;
+.barra {
+    height: 100vh;
     position: fixed;
-    transition: all .4s ease-in-out;
-    background-color: rgba(17, 184, 226, 0.568);
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    height: 100%;
+    width: 22%;
+    background: rgba(18, 62, 80, 0.808);
 }
-a {
-    color: rgb(0, 0, 0);
-    padding: 13px;
-    text-decoration: none;
-    display: block;
+.containers {
+    margin-left: 22%;
+    padding: 20px  30px;
+    background-color: rgba(75, 131, 131, 0.527);
 }
 ul {
+    padding: 30px;
     list-style: none;
+    font-size: 1em;
     display: block;
-    font-size: 1.1em;
-    text-align: left;
+    text-decoration: none;
 }
-body {
-    
+li {
+    text-align: left;
+    padding: 25px 10px 0 25px;
+}
+.loren {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    font-size: 1.3em;
+}
+.loren:hover {
+    color: rgb(179, 181, 204);
+}
+@media (max-width: 600px){
+    .barra {
+        height: 100vh;
+        position: fixed;
+        height: 100%;
+        width: 22%;
+        background: rgba(18, 62, 80, 0.808);
+    }
+    .containers {
+        background-color: rgba(75, 131, 131, 0.527);
+        margin-left: 50%;
+        padding: 20px  30px;
+    } 
+    li {
+        padding: 30px 10px 0 30px;
+        text-align: left;
+        text-decoration: none;
+     }
+    ul {
+    padding: 10px;
+    list-style: none;
+    font-size: 1em;
+    display: block;
+    text-decoration: none;
+    }
+}
+@media (max-width: 1000px){
+    .barra {
+        height: 100vh;
+        position: fixed;
+        height: 100%;
+        width: 31%;
+        background: rgba(18, 62, 80, 0.808);
+    }
+    .containers {
+        background-color: rgba(75, 131, 131, 0.527);
+        margin-left: 31%;
+        padding: 50px  20px;
+    } 
+    li {
+        padding: 30px 10px 0 30px;
+        text-align: left;
+        text-decoration: none;
+   }
 }

@@ -6,7 +6,7 @@ aprendiz1[0]= 1;
 aprendiz1[1]= "Yeimi Katherine";
 aprendiz1[2]= "Peña ariza";
 aprendiz1[3]= 18;
-aprendiz1[4]= "B. Villa del ´prado";
+aprendiz1[4]= "B. Villa del prado";
 aprendiz1[5]= 1.56;
 
 /* forma 2 */

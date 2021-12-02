@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1200px;
+    margin: 10px auto;
+}
+.superior {
+    overflow: hidden;
+}
+.menu {
+    float: right;
+    padding: 30px;
+}
+.lista li {
+    float: right;
+    list-style: none;
+}
+.lista li a {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+}
+.lista li a:hover{
+    background: rgb(102, 101, 105);
+}
+.cuerpo {
+    overflow: hidden;
+}
+article {
+    float: left;
+    width: 370px;
+    margin: 10px;
+}
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(59, 6, 231);
+    text-align: left;
+    padding: 1.5px;
+}
+.contenido {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1.5px;
+    text-align: justify;
+}
