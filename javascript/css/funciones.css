@@ -1,0 +1,16 @@
+div {
+    width: 300px;
+    margin: 0 auto;
+}
+.buton-style{
+    margin-top: 200px;
+    height: 100px;
+    width: 300px;
+    background: rgb(85, 158, 201);
+    color: black;
+    font-size: 2em;
+    text-align: center;
+}
+.buton-style:hover {
+    cursor: pointer;
+}

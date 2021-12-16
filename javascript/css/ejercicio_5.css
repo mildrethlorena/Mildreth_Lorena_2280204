@@ -1,0 +1,48 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+}
+div {
+    background: rgba(34, 32, 32, 0.876);
+    margin: 11px auto;    
+    width: 30%;
+    padding: 10px;
+}
+
+.buton-style:hover {
+    cursor: pointer;
+}
+h1 {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(0, 0, 0);
+    
+}
+h2{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+    }   
+input {
+        margin-bottom: 10px}
+.valores {
+    margin: 0 auto;
+    padding: 0 auto;
+    background: rgb(165, 152, 42); 
+    font-family: 'Courier New', Courier, monospace;
+}
+    form{
+        font-size: 22px;
+        margin-top: 50px;
+        margin-right: 18px;
+        width:100%;
+        text-align:center ;
+        width: 400px;
+        
+    }
+    .buton-style{
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(182, 155, 125);
+    }
