@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos asociados</title>
+</head>
+<body>
+    <!-- <script src="js/scrip.js"></script>-->
+    <!-- CODIGO LEGACY -->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatem totam ducimus tempora natus exercitationem, ad vitae distinctio, repudiandae commodi ipsum temporibus velit, tenetur quod corporis ut. Quos exercitationem ipsa nostrum excepturi quae soluta facilis optio, accusamus deleniti maxime voluptas libero vel asperiores similique unde provident, officiis voluptatem dolorem culpa ipsam itaque? Veniam culpa tempora, praesentium quas nostrum aliquid expedita saepe eum nobis placeat atque amet distinctio consectetur nihil, fugiat, fugit suscipit hic. Explicabo sint quam vero alias aliquam aut cumque voluptatum, consequatur nulla quisquam harum provident iste ipsum quod consequuntur enim aliquid exercitationem quasi fugiat perspiciatis ullam nesciunt laudantium laborum? Culpa, enim. Voluptatibus tempore at quisquam, sit unde aut fugiat ipsam, asperiores tenetur debitis magni minus qui fuga cumque adipisci dolores non enim rem expedita rerum ex dolorem nesciunt sequi. Ex beatae quidem iusto atque dolorem velit eius consequuntur quia sequi ab labore est adipisci sapiente iste minima veniam, voluptate culpa? Rerum aliquid, veritatis deserunt velit ullam deleniti rem sequi assumenda eveniet praesentium consequuntur quaerat suscipit cum porro! Provident voluptatibus earum repudiandae dicta eveniet. Eum libero a quisquam, modi amet animi eaque est nulla laboriosam cupiditate sed autem harum pariatur eligendi ab aperiam voluptatibus magni rerum reiciendis nesciunt corporis. Nemo cupiditate eius sit distinctio? Quo architecto asperiores in et. Repellendus, nihil eveniet ab perferendis neque rerum vel nemo quisquam ex fugiat veniam, debitis et molestiae dolores sunt laborum voluptatibus ut a tenetur amet nulla, voluptatem unde eum minima? Perferendis blanditiis dolores quasi aut qui beatae minima consequatur ad quidem aliquid quis enim, provident ratione explicabo. Sint perferendis ratione, velit ab culpa accusantium quis possimus consequatur amet ipsa a, nihil voluptas cumque sequi nobis numquam error animi vitae nisi facilis, explicabo incidunt odit praesentium. Fugit laborum, provident rerum ex minus, veritatis sunt dolorum qui neque sit in natus assumenda nihil reprehenderit quisquam. Hic ducimus dignissimos corporis nihil dolores culpa illo qui sunt maxime illum, repellat incidunt ipsum nobis ipsa libero consequuntur esse sed adipisci natus! Eaque omnis a est deserunt aut illo praesentium pariatur, unde rerum nesciunt. Eos perspiciatis rerum quia, voluptatum expedita assumenda dolorum minima dolore, sunt consequuntur nam officiis excepturi saepe voluptatem sed provident est aut! Laudantium magni dolor perspiciatis ut, ratione quas repellendus vero sunt consequuntur deleniti eius officiis corporis facilis nemo tempora aliquam, necessitatibus voluptates ipsa obcaecati quidem velit libero eos numquam? Beatae sed dicta consequatur, dolor nihil perferendis culpa totam autem id, temporibus aut quas perspiciatis eius assumenda quidem corporis in reprehenderit omnis laborum numquam officia vitae magni. Quasi molestiae neque iusto eos ex temporibus, accusantium explicabo assumenda in, aut recusandae expedita praesentium facilis earum? Quos fuga nulla officiis labore, tempore hic quasi reprehenderit, itaque animi sequi quas officia numquam provident ullam repellendus libero, quae nisi odio dolores vitae in voluptates amet eius. Aliquam ratione dolor mollitia dicta magni odio non perspiciatis quibusdam dignissimos molestiae! Quam quas mollitia a, odit consequuntur assumenda quae voluptate dicta earum quo totam amet itaque rem velit sequi optio illum praesentium nemo maxime suscipit temporibus fugit. Quam perferendis officiis voluptatem?</p>
+    <a href="#" onclick="alert('Hola');">Click</a><br><br><!-- con este codigo el mensaje lo devuelve al principio del la pagina -->
+    <a href="javascrip:voind(0)" onclick="saludos('Bienvenido')" >Haga click aqui</a><br><br><!-- con este codigo el mensaje lo deja en el lado que va el mensaje -->
+
+    <!-- los iconos tienen un mensaje -->
+    <input class="compra" type="button" value="click" class="carrito" onclick="agregarCarro('SE AGREGO EL CON EXITO')"><br>
+    <button class="compra" type="button"><img src="img/icons8-carrito-de-la-compra-cargado.gif" width="20px" class="carrito" onclick="agregarCarro('SE AGREGO EL CON EXITO')"></button><br>
+    <img class="compra" src="img/icons8-carrito-de-la-compra-cargado.gif" width="20px" class="carrito" onclick="agregarCarro('SE AGREGO EL CON EXITO')"> <br>
+    <style>
+        .compra{
+            cursor: pointer;
+            width: 100px;
+        }
+    </style>
+
+    <!--Eventos asociados al mouse-->
+    <img class="otro" src="img/logo.png"onmouseover="src'img/'" onmouseout="src='img/logo.png'">
+    <img class="otro" src="img/logo.png"  onmouseover="alert('Bienvenidos a Pitalito')">
+    <script src="js/script.js"></script>
+    <style>
+        .otro {
+            cursor: pointer;
+        width: 100px;
+        }
+    </style>
+
+    </body>
+<script>
+    function saludos(saludos) {
+        alert(saludos);
+    }
+</script>
+<script>
+    function agregarCarro(agregarCarro) {
+        alert(agregarCarro);
+    }
+</script>
+</html>
