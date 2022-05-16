@@ -10,3 +10,7 @@ function mostrarSonic() {
 function intercambiarImagen(ruta) {
     document.getElementById("imgPrincipal").src=ruta;
 }
+
+function intercambiarTexto(ruta) {
+    document.getElementById("textoPrincipal").src=ruta;
+}
