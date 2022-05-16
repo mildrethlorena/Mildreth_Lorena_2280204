@@ -7,8 +7,9 @@ function intercambiarLaCiudadPerdida() {
 function mostrarSonic() {
     document.getElementById("imgPrincipal").src="img/portada_sonic.jpg";
 } */
-function intercambiarImagen(ruta) {
+function intercambiarImagen(ruta, infoPelicula) {
     document.getElementById("imgPrincipal").src=ruta;
+    document.getElementById("infoPelicula").innerHTML = infoPelicula;
 }
 
 function intercambiarTexto(ruta) {

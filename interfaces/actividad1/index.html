@@ -4,30 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
     <title>Validacion Usuarios</title>
 </head>
 <body>
-    <form onsubmit="validarInfo('cedula','nombre');"> 
-    <table>
+    <div>
+        <table>
         <tr>
-            <th colspan="2" class="titulo">VALIDAD USUARIOS</th>
-        </tr>
+        <td> Documento:</td>
+        <td>
+            <input id="numeroDocumento" type="text" placeholder="Ingrese el numero de documento">
+        </td>
+        </tr><br>
         <tr>
-            <td>CEDULA:</td>
-            <td><input id="cedula" type="number" name="txtc"></td>
-        </tr>
+            <td>Nombre:</td> 
+        <td>
+            <input id="nombreUsuario" type="text" placeholder="Igrese su nombre">
+        </td>
+        </tr><br>
         <tr>
-            <td>NOMBRES:</td>
-            <td><input id="nombre" type="text"></td>
+        <td><input type="submit" value="Enviar" onclick="guardarInformacion();"></td>
         </tr>
-            <td></td><td><input type="submit" name="btnA" value="ENVIAR">
-            </td>
-        </tr>
-    </table>
-    </form>
-    <script src="js/script.js"></script>
-    <script>
-        
-    </script>
+        </table>
+</div>
 </body>
+    <script  src="js/script.js"></script>
 </html>

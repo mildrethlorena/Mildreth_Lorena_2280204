@@ -1,11 +1,20 @@
-function validarInfo(cedula,nombre,) { 
-    var cedula = document.getElementById(cedula);
-    var nombre = document.getElementById(nombre);
-    if( cedula.value === ""){
-         alert("Ingrese su numero de documento"); 
+"use strict"
+
+function guardarInformacion() {
+    let numeroDocumento = document.getElementById("numeroDocumento").value;
+    if (numeroDocumento == ""){
+        alert("Ingresar numero de documento");
+        return false;
     }
-    if( nombre.value === ""){
-        alert("Ingrese sus nombres");  
+    if (document.getElementById("nombreUsuario").value =="") {
+        alert("Ingresar nombre");
+        return false;
     }
-    return true;                        
+    alert("Informacion guardada con exito");
+    limpiarFormulario();
+    return true;
     }
+function limpiarFormulario() {
+    document.getElementById("numeroDocumento").value == "";
+    document.getElementById("nombreUsuario").value == "";
+}
