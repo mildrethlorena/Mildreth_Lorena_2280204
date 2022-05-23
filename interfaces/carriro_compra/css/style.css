@@ -13,7 +13,7 @@
                    "empty-izq            imagen-libro    empty               precio           empty-der"
                    "empty-izq            botonNumeros    empty               eliminar          empty-der " 
                    "empty-izq            botonNumeros    empty               MasTarde           empty-der "  auto /
-                    50px                 200px           30px                200px            50px                ;
+                    50px                 200px           30px                300px            50px                ;
 
 
 }
@@ -24,7 +24,8 @@
     
 }
 .imagen-libro{
-    width: 100%;
+    width: 220px;
+    height: 250PX;
     grid-area:imagen-libro ;
     display: flex;
 }
