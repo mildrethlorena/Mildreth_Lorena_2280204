@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="contenedor"> 
+        <div class="imagen-libro"> 
+            <img class="imagen-libro" src="image/imagen.png">   
+        </div>
+    
+        <div class="info-precio">
+            <label>Subtotal </label><label class="tipoMoneda"> COP </label><label id="valorSubtotal"></label>
+           
+        </div>
+        <div class="barra-productos">
+                <label> Proceder al pago (<label id="numeroProductos"><label id="cantidad"></label></label>)</label>
+                
+        </div>
+        <div class="info-texto">
+            <label >Macintosh,​ abreviado como Mac, es la línea de ordenadores personales diseñada, desarrollada y comercializada por Apple Inc. En sus inicios fue una alternativa económica y doméstica al Lisa, un avanzado microordenador empresarial, cuya línea de desarrollo fue absorbida por la línea Macintosh.</label>  
+            
+        </div>
+        <div class="precio">
+            <label class="cupo">COP</label><label class="valorUnitario" id="valor-unitario"></label>
+        </div>
+        <div class="botonNumeros"> 
+            <div class="restarStock boton" onclick="pruebaResta();">-</div>
+            <div id="cantidadLibro" class="unidades boton">1</div>
+            <div class="sumarStock boton" onclick="pruebaSuma();">+</div>
+        </div>
+        <div class="eliminar">
+            <input class="btneliminar"  type="submit" name="HOLA" value="Eliminar">
+        </div>
+        <div class="MasTarde ">
+            <input class="btnmasTarde"  type="submit" name="HOLA" value="Guardar para mas Tarde">
+        </div>
+
+
+       <!--  <div class="pie">
+            <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, accusantium voluptates. Odio, nesciunt laborum deserunt vel quo facere animi. Perferendis eum libero fugiat possimus expedita deleniti placeat dignissimos nam maiores.</h1>
+
+        </div> -->
+
+        
+        
+
+    </div>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

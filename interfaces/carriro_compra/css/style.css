@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0
+}
+.contenedor {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    grid-template: "empty-izq            info-precio     info-precio         info-precio       empty-der" 50px
+                   "empty-izq            barra-productos barra-productos     barra-productos   empty-der" 50px
+                   "empty-izq            imagen-libro    empty               info-texto        empty-der"
+                   "empty-izq            imagen-libro    empty               precio           empty-der"
+                   "empty-izq            botonNumeros    empty               eliminar          empty-der " 
+                   "empty-izq            botonNumeros    empty               MasTarde           empty-der "  auto /
+                    50px                 200px           30px                200px            50px                ;
+
+
+}
+.info-precio{
+    width: 100%;
+    grid-area:info-precio ;
+    display: flex;
+    
+}
+.imagen-libro{
+    width: 100%;
+    grid-area:imagen-libro ;
+    display: flex;
+}
+.barra-productos {
+    grid-area: barra-productos ;
+    background-color: yellow;
+    width: 100%;
+    border-radius: 12px;
+    display: flex;
+  
+}
+.precio {
+    width: 100%;
+    grid-area: precio ;
+    display: flex;
+}
+.info-texto {
+    width: 100%;
+    grid-area:info-texto ; 
+    padding: 5px;
+}
+.botonNumeros {
+    width: 100%;
+    grid-area:botonNumeros ;
+    display: flex;
+    
+}
+.eliminar {
+    grid-area: eliminar ;
+    width: 100%;
+    text-align: left;
+    display: flex;
+}
+.MasTarde {
+    grid-area: MasTarde  ;
+    width: 100%;
+    text-align: left;
+    display: flex;
+}
+
+/**mmma*/
+label {
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+}
+div {
+    margin-bottom:10px;
+    display: block;
+}
+.texto-productos {
+    text-align: center;
+}
+.texto-libro{
+    color: white;
+}
+.info-precio {
+   
+        /* text-align: center; */
+        align-items: center;
+        display: flex;
+        padding-left: 10px;
+
+}
+.barra-productos {
+    /* text-align: center; */
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+}
+
+.cupo, .tipoMoneda {
+    font-weight: 600;
+    font-size: 1.3em;
+}
+/* estilos botones */
+.boton {
+    margin: 5px;
+    width: 50px;
+    display: inline-block;
+    border: 1px solid  ;
+    height:40px;
+    /* background-color:red; */
+    font-size: 2.2em; 
+ /*    display: flex; */
+    justify-content:center;
+   /*  align-items: center; */
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+
+
+}
+/*estilo boton eliminar*/
+.btneliminar {
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.btnmasTarde {
+    margin: 5px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.sumarStock {
+    background-color:  rgb(231, 231, 231);
+}
+.restarStock {
+    background-color:  rgb(231, 231, 231);
+}
