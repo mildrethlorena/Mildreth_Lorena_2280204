@@ -7,14 +7,14 @@ function guardarInformacion() {
         return false;
     }
     if (document.getElementById("nombreUsuario").value =="") {
-        alert("Ingresar nombre");
+        alert("Ingresar nombres");
         return false;
     }
     alert("Informacion guardada con exito");
     limpiarFormulario();
     return true;
     }
-function limpiarFormulario() {
-    document.getElementById("numeroDocumento").value == "";
-    document.getElementById("nombreUsuario").value == "";
+    function limpiarFormulario() {
+    document.getElementById("numeroDocumento").value = "";
+    document.getElementById("nombreUsuario").value = "";
 }
