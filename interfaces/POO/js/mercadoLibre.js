@@ -1,8 +1,9 @@
 
 class automovil{
-    constructor(marca,modelo,year,precio,kilometraje,ciudad,imagen){
+    constructor(marca,modelo,version,year,precio,kilometraje,ciudad,imagen){
         this.marca=marca;
         this.modelo=modelo;
+        this.version=version;
         this.year=year;
         this.precio=precio;
         this.kilometraje=kilometraje;
@@ -11,11 +12,10 @@ class automovil{
     }
 }
 
-let car1= new automovil("Mini","Cooper","2013","98000000","29300","Bogota","img/rojo.jpg");
-let car2= new automovil("Mini","Countryman","2019","148000000","22277","Bogota","img/verde.jpg");
-let car3= new automovil("Mercedes-Benz","Clase C","2017","125000000","35381","Bogota","img/mercedes.jpg");
-let car4= new automovil("Mazda","cx-5","2018","115000000","38000","Bogota","img/mazda.jpg");
-let car5= new automovil("Mini","John Cooper Works","2020","160000000","13500","Bogota","img/gris.jpg");
+let car1= new automovil("Mazda","prado","txl","2020","298000000","82","Bogota","img/image.jpeg");
+let car2= new automovil("Chevrolet","Onix","turbo","2020","62800000","90","Bogota","img/chevrolet-onix.jpeg");
+let car3= new automovil("Suzuki","jimmy","lite","2020","62500000","130","Pitalito","img/suzuki.jpeg");
+let car4= new automovil("Mazda","cx-5","turbo","2023","130000000","0","Bogota","img/cx.jpg");
 
 function Busqueda(car){
     //let contabs=document.getElementById("contenedorAbsoluto");
@@ -40,7 +40,7 @@ function Busqueda(car){
     contimg.appendChild(valorcar);
 
     let descripcion= document.createElement("label");
-    let textdesccar=document.createTextNode(car.marca+" " +car.modelo);
+    let textdesccar=document.createTextNode(car.marca+" " +car.modelo+" "+ car.version);
     descripcion.appendChild(textdesccar);
     descripcion.setAttribute("class","descripcion");
 
@@ -71,24 +71,22 @@ window.addEventListener("keydown",function(event){
     if(event.key=="Enter"){
         console.log(Busq);
         cleanwindow();
-        if(Busq=="mini"){
+        if(Busq=="mazda"){
             Busqueda(car1);
-            Busqueda(car2);
-            Busqueda(car5);         
+            Busqueda(car4);            
         }
-        else if(Busq=="mazda"){
-            Busqueda(car4);
+        else if(Busq=="chevrolet"){
+            Busqueda(car2);
         }
         
-        else if(Busq=="mercedes"){
+        else if(Busq=="suzuki"){
             Busqueda(car3);
         }
         else{
-            alert("No se encontro ningun resultado");
+            alert("sin coincidencias");
         }
     }
 })
 function cleanwindow(){
     document.getElementById("contenidoPrincipal").innerHTML="";
 }
-
